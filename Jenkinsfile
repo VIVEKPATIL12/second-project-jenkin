@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/your-username/streamlit-ci-demo.git'
+                git branch: 'main', url: 'https://github.com/VIVEKPATIL12/second-project-jenkin.git'
             }
         }
 
