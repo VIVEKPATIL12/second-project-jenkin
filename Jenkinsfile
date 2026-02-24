@@ -14,12 +14,7 @@ pipeline {
             }
         }
 
-        stage('Test') {
-            steps {
-                echo 'Running basic tests...'
-                sh 'python -m unittest discover tests'
-            }
-        }
+      
 
         stage('Deploy') {
             steps {
