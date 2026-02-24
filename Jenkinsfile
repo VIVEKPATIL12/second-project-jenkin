@@ -19,7 +19,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying Streamlit app...'
-                sh 'streamlit run app.py --server.port=8501 &'
+                sh 'streamlit run app.py --server.port=8505 &'
             }
         }
     }
